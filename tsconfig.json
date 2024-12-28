@@ -1,0 +1,8 @@
+{
+    "compilerOptions": {
+        "module": "Preserve",
+        "noImplicitAny": true
+    },
+    "include": ["**/*.ts", "**/*.tsx"],
+    "exclude": ["**/*.spec.ts"]
+}
