@@ -4,6 +4,7 @@ import "dotenv/config";
 export const ACCESS_TOKEN = process.env.ACCESS_TOKEN;
 export const api = axios.create({
     baseURL: "https://hackattic.com/challenges/",
+    timeout: 60000,
 });
 
 export const getChallengeUrls = (challengeName: string) => {
