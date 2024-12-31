@@ -1,6 +1,8 @@
 import axios, { AxiosRequestConfig } from "axios";
 import "dotenv/config";
 
+export const NGROK_TOKEN = process.env.NGROK_TOKEN;
+export const PORT = process.env.PORT;
 export const ACCESS_TOKEN = process.env.ACCESS_TOKEN;
 export const api = axios.create({
     baseURL: "https://hackattic.com/challenges/",
