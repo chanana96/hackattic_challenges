@@ -3,7 +3,7 @@ import { solveProblem } from "./solution";
 import { logger } from "../logger";
 import { TProblem, TSolution } from "./types";
 
-const challengeName = "tales_of_ssl";
+const challengeName = "mini_miner";
 
 const solution = async () => {
     try {
@@ -18,4 +18,4 @@ const solution = async () => {
 
 solution();
 
-//https://hackattic.com/challenges/tales_of_ssl
+//https://hackattic.com/challenges/mini_miner
