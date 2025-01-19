@@ -1,4 +1,5 @@
-import axios, { AxiosRequestConfig } from "axios";
+import axios, { AxiosRequestConfig, AxiosError } from "axios";
+
 import "dotenv/config";
 
 export const NGROK_TOKEN = process.env.NGROK_TOKEN;
@@ -26,7 +27,16 @@ export const getProblem = async <T>(
 };
 
 export const submitSolution = async <T>(solution: T, challengeName: string): Promise<unknown> => {
-    const { solutionUrl } = getChallengeUrls(challengeName);
-    const response = await api.post(solutionUrl, solution);
-    return response.data;
+    try {
+        const { solutionUrl } = getChallengeUrls(challengeName);
+        const response = await api.post(solutionUrl, solution);
+        return response.data;
+    } catch (e: unknown) {
+        if (e instanceof AxiosError) {
+            console.error("Status:", e.response?.status);
+            console.error("Status Text:", e.response?.statusText);
+            console.error("Response Data:", e.response?.data);
+            console.error("Request Data:", e.config?.data);
+        }
+    }
 };
