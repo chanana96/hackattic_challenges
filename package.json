@@ -13,7 +13,7 @@
         "basic-face-detection": "tsx watch basic_face_detection/index.ts",
         "redis-challenge": "tsx watch redis_challenge/index.ts",
         "visual-basic-math": "tsx watch visual_basic_math/index.ts",
-        "global-presence": "tsx watch global_presence/index.ts",
+        "a-global-presence": "tsx watch a_global_presence/index.ts",
         "websocket-chit-chat": "tsx watch websocket_chit_chat/index.ts",
         "collision-course": "tsx watch collision_course/index.ts",
         "hosting-git": "tsx watch hosting_git/index.ts",

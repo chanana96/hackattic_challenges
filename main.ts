@@ -2,6 +2,9 @@ import axios, { AxiosRequestConfig, AxiosError } from "axios";
 
 import "dotenv/config";
 
+export const PROXIES: { host: string; port: number }[] = JSON.parse(process.env.PROXIES as string);
+export const PROXY_USERNAME: string = process.env.PROXY_USERNAME!;
+export const PROXY_PASSWORD: string = process.env.PROXY_PASSWORD!;
 export const NGROK_TOKEN = process.env.NGROK_TOKEN;
 export const PORT = process.env.PORT;
 export const ACCESS_TOKEN = process.env.ACCESS_TOKEN;
