@@ -1,7 +1,14 @@
 {
     "compilerOptions": {
-        "module": "Preserve",
-        "noImplicitAny": true
+        "module": "CommonJS",
+        "target": "ES2015",
+        "noImplicitAny": true,
+        "downlevelIteration": true,
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "lib": ["ES2021"]
     },
     "include": ["**/*.ts", "**/*.tsx"],
     "exclude": ["**/*.spec.ts"]
