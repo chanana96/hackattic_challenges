@@ -44,6 +44,7 @@
         "node-stream-zip": "^1.15.0",
         "pg": "^8.13.1",
         "raw-body": "^3.0.0",
+        "simple-git": "^3.27.0",
         "socket.io": "^4.8.1",
         "ts-node": "^10.9.2",
         "typesync": "^0.14.0",
