@@ -7,6 +7,9 @@ import child_process from "node:child_process";
 import { TProblem, TSolution, PermissionParams } from "./types";
 import { BASEURL, PUBLIC_IP } from "../main";
 
+//The key to this challenge on Windows is you HAVE TO CHANGE THE DEFAULT SHELL OF OPENSSH TO BASH!!
+//New-ItemProperty -Path "HKLM:\SOFTWARE\OpenSSH" -Name DefaultShell -Value "C:\Program Files\Git\bin\bash.exe" -PropertyType String -Force
+
 const exec = util.promisify(child_process.exec);
 const ROOT_DIR = "C:\\Users";
 
