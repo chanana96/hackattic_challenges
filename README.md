@@ -24,7 +24,7 @@ Ranked #19 as of 1/28/2025
 
 - [x] WebSocket chit chat
 
-- [ ] Collision course
+- [x] Collision course
 
 - [x] Hosting git
 
