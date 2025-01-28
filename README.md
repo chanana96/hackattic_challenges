@@ -1,6 +1,6 @@
 Challenges from https://hackattic.com/challenges just for learning and recreational purposes. Solutions are probably suboptimal so feel free to shower me with feedback :)
 
-Ranked #26 as of 1/28/2025
+Ranked #19 as of 1/28/2025
 
 - [x] Mini miner
 
@@ -16,7 +16,7 @@ Ranked #26 as of 1/28/2025
 
 - [ ] Basic face detection
 
-- [ ] The one with Redis
+- [x] The one with Redis
 
 - [ ] Visual basic math
 
