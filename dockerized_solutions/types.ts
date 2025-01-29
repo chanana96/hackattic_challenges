@@ -1,7 +1,12 @@
 export type TProblem = {
-    image_url: string;
+    credentials: {
+        user: string;
+        password: string;
+    };
+    ignition_key: string;
+    trigger_token: string;
 };
 
 export type TSolution = {
-    registry_host: string;
+    secret: string;
 };

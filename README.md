@@ -1,6 +1,6 @@
 Challenges from https://hackattic.com/challenges just for learning and recreational purposes. Solutions are probably suboptimal so feel free to shower me with feedback :)
 
-Ranked #11 as of 1/29/2025
+Ranked #10 as of 1/29/2025
 
 - [x] Mini miner
 
@@ -8,7 +8,7 @@ Ranked #11 as of 1/29/2025
 
 - [x] Tales of SSL
 
-- [ ] Dockerized solutions
+- [x] Dockerized solutions
 
 - [x] Password hashing
 
